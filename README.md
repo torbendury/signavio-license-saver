@@ -39,3 +39,13 @@ The other APIs are documented and can be found in the official SAP Signavio docs
 ## License
 
 This project uses GPLv3.0. You can find the license [here](LICENSE).
+
+## Project
+
+Feel free to contribute to this project! You can open issues, create pull requests or just fork the project and use it for your own purposes. I am happy to receive any feedback.
+
+I'm not affiliated with Signavio or SAP in any way. This is a personal project and not an official tool.
+
+If you find bad practices, bugs or anything else, please let me know. I'm happy to learn and improve.
+
+Made with ❤️ by [Torben](https://torbendury.de)
