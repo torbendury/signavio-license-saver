@@ -18,13 +18,18 @@ The use case for this tool is to free up license seats in Signavio. If you have 
 
 ## Usage
 
-```bash
-make build
-
-bin/signavio-license-saver -h
-```
 
 The tool does not need any external dependencies, so for compiling you only need `make` and `go` installed.
+
+Clone the repository and install the binary yourself:
+
+```bash
+make install
+
+signavio-license-saver -h
+```
+
+`signavio-license-saver` offers a few flags to customize behavior.
 
 Optionally, if you're into `dotenv` files, you can create a `.env` file with the following content:
 

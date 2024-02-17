@@ -1,9 +1,8 @@
 include .env
 export
 
-
 run:
-	go run cmd/main.go -url=$(URL) -tenant=$(TENANT) -user=$(USER) -password=$(PASSWORD) -allowlist=$(ALLOWLIST)
+	go run cmd/signavio-license-saver.go -url=$(URL) -tenant=$(TENANT) -user=$(USER) -password=$(PASSWORD) -allowlist=$(ALLOWLIST)
 
 test:
 	go test -race -cover -v ./...
@@ -13,4 +12,7 @@ test:
 	go run golang.org/x/vuln/cmd/govulncheck@latest ./...
 
 build:
-	go build -o bin/signavio-license-saver cmd/main.go
+	go build -o bin/signavio-license-saver cmd/signavio-license-saver.go
+
+install:
+	go install cmd/signavio-license-saver.go
