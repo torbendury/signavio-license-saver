@@ -2,7 +2,19 @@
 
 This is a simple tool for license rotation in Signavio. It retrieves all users from Signavio and deletes them. This frees up license seats.
 
-It might be against the terms of service of Signavio to actually use this tool, so I would advise against it. It is meant as a proof of concept and for educational purposes only.
+*It might be against the terms of service of Signavio to actually use this tool, so I would advise against it. It is meant as a proof of concept and for educational purposes only.*
+
+- [signavio-license-saver](#signavio-license-saver)
+  - [Use Case](#use-case)
+  - [Usage](#usage)
+  - [Development](#development)
+  - [Signavio APIs](#signavio-apis)
+  - [License](#license)
+  - [Project](#project)
+
+## Use Case
+
+The use case for this tool is to free up license seats in Signavio. If you have a lot of users and you want to free up some seats, you can use this tool to delete all users and then let Signavio re-assign licenses to the users actually logging in and using the tool.
 
 ## Usage
 
