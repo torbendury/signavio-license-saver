@@ -18,8 +18,7 @@ The use case for this tool is to free up license seats in Signavio. If you have 
 
 ## Usage
 
-
-The tool does not need any external dependencies, so for compiling you only need `make` and `go` installed.
+The tool does not need any external dependencies, so for compiling you only need `make` and `go` v1.21.5 installed.
 
 Clone the repository and install the binary yourself:
 
