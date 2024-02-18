@@ -1,4 +1,4 @@
-// Signavio API client interface and related types.
+// Package signavio provides an API client interface and related types.
 package signavio
 
 import (
