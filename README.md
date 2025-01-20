@@ -1,3 +1,9 @@
+<div align="center">
+  <br>
+  <img src="assets/jar.png" alt="money jar" width="200"/>
+  <br>
+</div>
+
 # signavio-license-saver
 
 This is a simple tool for license rotation in Signavio. It retrieves all users from Signavio and deletes them. This frees up license seats.
@@ -11,6 +17,7 @@ This is a simple tool for license rotation in Signavio. It retrieves all users f
   - [Signavio APIs](#signavio-apis)
   - [License](#license)
   - [Project](#project)
+  - [Attributions](#attributions)
 
 ## Use Case
 
@@ -65,3 +72,7 @@ I'm not affiliated with Signavio or SAP in any way. This is a personal project a
 If you find bad practices, bugs or anything else, please let me know. I'm happy to learn and improve.
 
 Made with ❤️ by [Torben](https://torbendury.de)
+
+## Attributions
+
+- [Savings icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/savings)
